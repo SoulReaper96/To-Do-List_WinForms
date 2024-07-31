@@ -24,6 +24,9 @@ namespace To_Do_List
             ToDoListView.Columns.Add(checkBoxColumn);
             todoList.Columns.Add("Title");
             todoList.Columns.Add("Description");
+            todoList.Columns.Add("Due-Date");
+            todoList.Columns.Add("Category");
+            todoList.Columns.Add("Priority");
             // Point our datagridview to our datasource
             ToDoListView.DataSource = todoList;
         }

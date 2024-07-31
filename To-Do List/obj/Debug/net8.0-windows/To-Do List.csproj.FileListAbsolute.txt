@@ -30,3 +30,20 @@ G:\Studies\To-Do List\To-Do List\obj\Debug\net8.0-windows\refint\To-Do List.dll
 G:\Studies\To-Do List\To-Do List\obj\Debug\net8.0-windows\To-Do List.pdb
 G:\Studies\To-Do List\To-Do List\obj\Debug\net8.0-windows\To-Do List.genruntimeconfig.cache
 G:\Studies\To-Do List\To-Do List\obj\Debug\net8.0-windows\ref\To-Do List.dll
+D:\Mr. Reapers' Docs\GitHub Repositories\SoulReaper96\To-Do-List_WinForms\To-Do List\bin\Debug\net8.0-windows\To-Do List.exe
+D:\Mr. Reapers' Docs\GitHub Repositories\SoulReaper96\To-Do-List_WinForms\To-Do List\bin\Debug\net8.0-windows\To-Do List.deps.json
+D:\Mr. Reapers' Docs\GitHub Repositories\SoulReaper96\To-Do-List_WinForms\To-Do List\bin\Debug\net8.0-windows\To-Do List.runtimeconfig.json
+D:\Mr. Reapers' Docs\GitHub Repositories\SoulReaper96\To-Do-List_WinForms\To-Do List\bin\Debug\net8.0-windows\To-Do List.dll
+D:\Mr. Reapers' Docs\GitHub Repositories\SoulReaper96\To-Do-List_WinForms\To-Do List\bin\Debug\net8.0-windows\To-Do List.pdb
+D:\Mr. Reapers' Docs\GitHub Repositories\SoulReaper96\To-Do-List_WinForms\To-Do List\obj\Debug\net8.0-windows\To_Do_List.ToDoList.resources
+D:\Mr. Reapers' Docs\GitHub Repositories\SoulReaper96\To-Do-List_WinForms\To-Do List\obj\Debug\net8.0-windows\To-Do List.csproj.GenerateResource.cache
+D:\Mr. Reapers' Docs\GitHub Repositories\SoulReaper96\To-Do-List_WinForms\To-Do List\obj\Debug\net8.0-windows\To-Do List.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mr. Reapers' Docs\GitHub Repositories\SoulReaper96\To-Do-List_WinForms\To-Do List\obj\Debug\net8.0-windows\To-Do List.AssemblyInfoInputs.cache
+D:\Mr. Reapers' Docs\GitHub Repositories\SoulReaper96\To-Do-List_WinForms\To-Do List\obj\Debug\net8.0-windows\To-Do List.AssemblyInfo.cs
+D:\Mr. Reapers' Docs\GitHub Repositories\SoulReaper96\To-Do-List_WinForms\To-Do List\obj\Debug\net8.0-windows\To-Do List.csproj.CoreCompileInputs.cache
+D:\Mr. Reapers' Docs\GitHub Repositories\SoulReaper96\To-Do-List_WinForms\To-Do List\obj\Debug\net8.0-windows\To-Do List.sourcelink.json
+D:\Mr. Reapers' Docs\GitHub Repositories\SoulReaper96\To-Do-List_WinForms\To-Do List\obj\Debug\net8.0-windows\To-Do List.dll
+D:\Mr. Reapers' Docs\GitHub Repositories\SoulReaper96\To-Do-List_WinForms\To-Do List\obj\Debug\net8.0-windows\refint\To-Do List.dll
+D:\Mr. Reapers' Docs\GitHub Repositories\SoulReaper96\To-Do-List_WinForms\To-Do List\obj\Debug\net8.0-windows\To-Do List.pdb
+D:\Mr. Reapers' Docs\GitHub Repositories\SoulReaper96\To-Do-List_WinForms\To-Do List\obj\Debug\net8.0-windows\To-Do List.genruntimeconfig.cache
+D:\Mr. Reapers' Docs\GitHub Repositories\SoulReaper96\To-Do-List_WinForms\To-Do List\obj\Debug\net8.0-windows\ref\To-Do List.dll
