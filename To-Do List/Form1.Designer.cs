@@ -35,19 +35,17 @@ namespace To_Do_List
             DescriptLBL = new Label();
             DescriptTB = new TextBox();
             EditBTN = new Button();
-            DeleteBTN = new Button();
+            RemoveBTN = new Button();
             SaveBTN = new Button();
             ToDoListView = new DataGridView();
-            Low_chk = new CheckBox();
             PriorityLBL = new Label();
-            Medium_chk = new CheckBox();
-            High_chk = new CheckBox();
-            Shopping_chk = new CheckBox();
-            Work_chk = new CheckBox();
             CategoryLBL = new Label();
-            Personal_chk = new CheckBox();
             TaskDue_dtp = new DateTimePicker();
             DueLBL = new Label();
+            CompleteBTN = new Button();
+            LoadBTN = new Button();
+            Priority_cmb = new ComboBox();
+            Category_cmb = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)ToDoListView).BeginInit();
             SuspendLayout();
             // 
@@ -66,7 +64,7 @@ namespace To_Do_List
             NewBTN.Font = new Font("Arial", 12F, FontStyle.Bold);
             NewBTN.Location = new Point(12, 135);
             NewBTN.Name = "NewBTN";
-            NewBTN.Size = new Size(165, 31);
+            NewBTN.Size = new Size(100, 31);
             NewBTN.TabIndex = 1;
             NewBTN.Text = "NEW";
             NewBTN.UseVisualStyleBackColor = true;
@@ -101,31 +99,31 @@ namespace To_Do_List
             // EditBTN
             // 
             EditBTN.Font = new Font("Arial", 12F, FontStyle.Bold);
-            EditBTN.Location = new Point(184, 135);
+            EditBTN.Location = new Point(118, 135);
             EditBTN.Name = "EditBTN";
-            EditBTN.Size = new Size(165, 31);
+            EditBTN.Size = new Size(100, 31);
             EditBTN.TabIndex = 5;
             EditBTN.Text = "EDIT";
             EditBTN.UseVisualStyleBackColor = true;
             EditBTN.Click += EditBTN_Click;
             // 
-            // DeleteBTN
+            // RemoveBTN
             // 
-            DeleteBTN.Font = new Font("Arial", 12F, FontStyle.Bold);
-            DeleteBTN.Location = new Point(355, 135);
-            DeleteBTN.Name = "DeleteBTN";
-            DeleteBTN.Size = new Size(165, 31);
-            DeleteBTN.TabIndex = 6;
-            DeleteBTN.Text = "DELETE";
-            DeleteBTN.UseVisualStyleBackColor = true;
-            DeleteBTN.Click += DeleteBTN_Click;
+            RemoveBTN.Font = new Font("Arial", 12F, FontStyle.Bold);
+            RemoveBTN.Location = new Point(224, 135);
+            RemoveBTN.Name = "RemoveBTN";
+            RemoveBTN.Size = new Size(100, 31);
+            RemoveBTN.TabIndex = 6;
+            RemoveBTN.Text = "REMOVE";
+            RemoveBTN.UseVisualStyleBackColor = true;
+            RemoveBTN.Click += DeleteBTN_Click;
             // 
             // SaveBTN
             // 
             SaveBTN.Font = new Font("Arial", 12F, FontStyle.Bold);
-            SaveBTN.Location = new Point(527, 135);
+            SaveBTN.Location = new Point(332, 135);
             SaveBTN.Name = "SaveBTN";
-            SaveBTN.Size = new Size(165, 31);
+            SaveBTN.Size = new Size(100, 31);
             SaveBTN.TabIndex = 7;
             SaveBTN.Text = "SAVE";
             SaveBTN.UseVisualStyleBackColor = true;
@@ -141,19 +139,9 @@ namespace To_Do_List
             ToDoListView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             ToDoListView.Location = new Point(12, 172);
             ToDoListView.Name = "ToDoListView";
-            ToDoListView.SelectionMode = DataGridViewSelectionMode.CellSelect;
+            ToDoListView.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             ToDoListView.Size = new Size(680, 360);
             ToDoListView.TabIndex = 8;
-            // 
-            // Low_chk
-            // 
-            Low_chk.AutoSize = true;
-            Low_chk.Location = new Point(504, 82);
-            Low_chk.Name = "Low_chk";
-            Low_chk.Size = new Size(48, 19);
-            Low_chk.TabIndex = 9;
-            Low_chk.Text = "Low";
-            Low_chk.UseVisualStyleBackColor = true;
             // 
             // PriorityLBL
             // 
@@ -165,46 +153,6 @@ namespace To_Do_List
             PriorityLBL.TabIndex = 10;
             PriorityLBL.Text = "Task Priority:";
             // 
-            // Medium_chk
-            // 
-            Medium_chk.AutoSize = true;
-            Medium_chk.Location = new Point(558, 82);
-            Medium_chk.Name = "Medium_chk";
-            Medium_chk.Size = new Size(71, 19);
-            Medium_chk.TabIndex = 11;
-            Medium_chk.Text = "Medium";
-            Medium_chk.UseVisualStyleBackColor = true;
-            // 
-            // High_chk
-            // 
-            High_chk.AutoSize = true;
-            High_chk.Location = new Point(504, 107);
-            High_chk.Name = "High_chk";
-            High_chk.Size = new Size(52, 19);
-            High_chk.TabIndex = 12;
-            High_chk.Text = "High";
-            High_chk.UseVisualStyleBackColor = true;
-            // 
-            // Shopping_chk
-            // 
-            Shopping_chk.AutoSize = true;
-            Shopping_chk.Location = new Point(355, 107);
-            Shopping_chk.Name = "Shopping_chk";
-            Shopping_chk.Size = new Size(77, 19);
-            Shopping_chk.TabIndex = 16;
-            Shopping_chk.Text = "Shopping";
-            Shopping_chk.UseVisualStyleBackColor = true;
-            // 
-            // Work_chk
-            // 
-            Work_chk.AutoSize = true;
-            Work_chk.Location = new Point(432, 82);
-            Work_chk.Name = "Work_chk";
-            Work_chk.Size = new Size(54, 19);
-            Work_chk.TabIndex = 15;
-            Work_chk.Text = "Work";
-            Work_chk.UseVisualStyleBackColor = true;
-            // 
             // CategoryLBL
             // 
             CategoryLBL.AutoSize = true;
@@ -214,16 +162,6 @@ namespace To_Do_List
             CategoryLBL.Size = new Size(107, 16);
             CategoryLBL.TabIndex = 14;
             CategoryLBL.Text = "Task Category:";
-            // 
-            // Personal_chk
-            // 
-            Personal_chk.AutoSize = true;
-            Personal_chk.Location = new Point(355, 82);
-            Personal_chk.Name = "Personal_chk";
-            Personal_chk.Size = new Size(71, 19);
-            Personal_chk.TabIndex = 13;
-            Personal_chk.Text = "Personal";
-            Personal_chk.UseVisualStyleBackColor = true;
             // 
             // TaskDue_dtp
             // 
@@ -242,24 +180,62 @@ namespace To_Do_List
             DueLBL.TabIndex = 18;
             DueLBL.Text = "Due Date:";
             // 
+            // CompleteBTN
+            // 
+            CompleteBTN.Font = new Font("Arial", 12F, FontStyle.Bold);
+            CompleteBTN.Location = new Point(438, 135);
+            CompleteBTN.Name = "CompleteBTN";
+            CompleteBTN.Size = new Size(100, 31);
+            CompleteBTN.TabIndex = 19;
+            CompleteBTN.Text = "DONE";
+            CompleteBTN.UseVisualStyleBackColor = true;
+            CompleteBTN.Click += CompleteBTN_Click;
+            // 
+            // LoadBTN
+            // 
+            LoadBTN.Font = new Font("Arial", 12F, FontStyle.Bold);
+            LoadBTN.Location = new Point(544, 135);
+            LoadBTN.Name = "LoadBTN";
+            LoadBTN.Size = new Size(100, 31);
+            LoadBTN.TabIndex = 20;
+            LoadBTN.Text = "LOAD";
+            LoadBTN.UseVisualStyleBackColor = true;
+            LoadBTN.Click += LoadBTN_Click;
+            // 
+            // Priority_cmb
+            // 
+            Priority_cmb.FormattingEnabled = true;
+            Priority_cmb.Items.AddRange(new object[] { "Low", "Medium", "High" });
+            Priority_cmb.Location = new Point(504, 80);
+            Priority_cmb.Name = "Priority_cmb";
+            Priority_cmb.Size = new Size(121, 23);
+            Priority_cmb.TabIndex = 21;
+            // 
+            // Category_cmb
+            // 
+            Category_cmb.FormattingEnabled = true;
+            Category_cmb.Items.AddRange(new object[] { "Personal", "Business", "Home", "Shopping" });
+            Category_cmb.Location = new Point(355, 80);
+            Category_cmb.Name = "Category_cmb";
+            Category_cmb.Size = new Size(121, 23);
+            Category_cmb.TabIndex = 22;
+            // 
             // ToDoList
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(704, 544);
+            Controls.Add(Category_cmb);
+            Controls.Add(Priority_cmb);
+            Controls.Add(LoadBTN);
+            Controls.Add(CompleteBTN);
             Controls.Add(DueLBL);
             Controls.Add(TaskDue_dtp);
-            Controls.Add(Shopping_chk);
-            Controls.Add(Work_chk);
             Controls.Add(CategoryLBL);
-            Controls.Add(Personal_chk);
-            Controls.Add(High_chk);
-            Controls.Add(Medium_chk);
             Controls.Add(PriorityLBL);
-            Controls.Add(Low_chk);
             Controls.Add(ToDoListView);
             Controls.Add(SaveBTN);
-            Controls.Add(DeleteBTN);
+            Controls.Add(RemoveBTN);
             Controls.Add(EditBTN);
             Controls.Add(DescriptTB);
             Controls.Add(DescriptLBL);
@@ -282,18 +258,16 @@ namespace To_Do_List
         private Label DescriptLBL;
         private TextBox DescriptTB;
         private Button EditBTN;
-        private Button DeleteBTN;
+        private Button RemoveBTN;
         private Button SaveBTN;
         private DataGridView ToDoListView;
-        private CheckBox Low_chk;
         private Label PriorityLBL;
-        private CheckBox Medium_chk;
-        private CheckBox High_chk;
-        private CheckBox Shopping_chk;
-        private CheckBox Work_chk;
         private Label CategoryLBL;
-        private CheckBox Personal_chk;
         private DateTimePicker TaskDue_dtp;
         private Label DueLBL;
+        private Button CompleteBTN;
+        private Button LoadBTN;
+        private ComboBox Priority_cmb;
+        private ComboBox Category_cmb;
     }
 }
