@@ -121,7 +121,7 @@ namespace To_Do_List
             // SaveBTN
             // 
             SaveBTN.Font = new Font("Arial", 12F, FontStyle.Bold);
-            SaveBTN.Location = new Point(332, 135);
+            SaveBTN.Location = new Point(486, 135);
             SaveBTN.Name = "SaveBTN";
             SaveBTN.Size = new Size(100, 31);
             SaveBTN.TabIndex = 7;
@@ -183,7 +183,7 @@ namespace To_Do_List
             // CompleteBTN
             // 
             CompleteBTN.Font = new Font("Arial", 12F, FontStyle.Bold);
-            CompleteBTN.Location = new Point(438, 135);
+            CompleteBTN.Location = new Point(330, 135);
             CompleteBTN.Name = "CompleteBTN";
             CompleteBTN.Size = new Size(100, 31);
             CompleteBTN.TabIndex = 19;
@@ -194,7 +194,7 @@ namespace To_Do_List
             // LoadBTN
             // 
             LoadBTN.Font = new Font("Arial", 12F, FontStyle.Bold);
-            LoadBTN.Location = new Point(544, 135);
+            LoadBTN.Location = new Point(592, 135);
             LoadBTN.Name = "LoadBTN";
             LoadBTN.Size = new Size(100, 31);
             LoadBTN.TabIndex = 20;
